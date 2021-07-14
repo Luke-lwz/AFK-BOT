@@ -10,6 +10,7 @@ AFK-BOT is a simple logging bot, that logs every time a user joins or leaves an 
 - download files  
 - have node and npm installed  
 - open terminal  
+- type `npm init -y`  
 - type `npm i discord.js simplest.db`  
 - type `node .`  
   
