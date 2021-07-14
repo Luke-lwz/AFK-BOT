@@ -21,7 +21,8 @@ client.on("voiceStateUpdate", async (oldMember, newMember) => {
             chan.send({
                 embed: {
                     description: ":inbox_tray: <@" + newMember.id + "> joined AFK channel",
-                    color: 13072128
+                    color: 13072128,
+                    timestamp: new Date()
                 }
             });
         })
@@ -35,7 +36,8 @@ client.on("voiceStateUpdate", async (oldMember, newMember) => {
             chan.send({
                 embed: {
                     description: ":outbox_tray: <@" + oldMember.id + "> left AFK channel",
-                    color: 13041664
+                    color: 13041664,
+                    timestamp: new Date()
                 }
             });
         })
