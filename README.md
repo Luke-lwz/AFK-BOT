@@ -2,7 +2,7 @@
 AFK-BOT is a simple logging bot, that logs every time a user joins or leaves an AFK channel.  
   
 # LIMITATIONS 
-- only works on one server  
+- only works in one server  
 - self hosted  
   
 # INSTALLATION  
